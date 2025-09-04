@@ -6,10 +6,10 @@ const Card1 = () => {
         <img
             src ={imgMan}
             alt="Headshot of a man"
-            style={{ width: "100px", height: "auto", borderRadius: "8px" }}
+            style={{ width: "100px", height: "100px", borderRadius: "8px" }}
         />
-        <h2>Card Title</h2>
-        <p>Card content goes here.</p>
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
         </div>
     )
 }

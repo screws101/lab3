@@ -1,16 +1,14 @@
 import './App.css';
 import Card1 from './components/Card1';
+import Card2 from './components/Card2';
 import About from './components/About';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <>
-      <div className="section">
-        <div className="container">
-          <Header/>
-        </div>
-      </div>
+      <Header/>
       <h1>Profile App</h1>
       <div className="section">
         <div className="container">
@@ -18,8 +16,9 @@ function App() {
         </div>
       </div>
       <div className="section">
-        <div className="container">
+        <div className="card_container">
           <Card1/>
+          <Card2/>
         </div>
       </div>
 
