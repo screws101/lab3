@@ -6,7 +6,12 @@ function App() {
 
   return (
     <>
-      <h1>My React App</h1>
+      <div className="section">
+        <div className="container">
+          <Header/>
+        </div>
+      </div>
+      <h1>Profile App</h1>
       <div className="section">
         <div className="container">
           <About/>
@@ -17,7 +22,7 @@ function App() {
           <Card1/>
         </div>
       </div>
-      
+
     </>
   )
 }
