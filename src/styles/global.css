@@ -1,5 +1,5 @@
-h1{
-    font-size: 2rem;
+.page-title{
+    font-size: 1rem;
     font-weight: bold;
     color: var(--text-color);
     text-align: center;
@@ -21,20 +21,20 @@ p{
     background-color: var(--background-color);
 }
 .section{
-    padding: 5rem;
+    padding: 2rem;
 }
-.container{
+/* .container{
     max-width:1200px;
     margin: 0 auto;
-}
-.card{
+} */
+.profile-card{
     background-color: antiquewhite;
     box-shadow: 5px 5px 5px;
     border-radius: 10px;
     border: 1px solid hsl(0, 0%, 80%);
     width: 10rem;
 }
-.header{
+header{
     background-color: cornflowerblue;
     width: 100%;
     top: 0;
@@ -52,7 +52,7 @@ img{
     display: block;
     margin:0 auto;
 }
-.card_container{
+.flex-container{
     max-width:1200px;
     margin: 0 auto;
     display: flex;
